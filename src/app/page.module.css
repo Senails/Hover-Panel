@@ -1,0 +1,35 @@
+.wall{
+    margin: 0 auto;
+
+
+    width: 50%;
+    height: 250px;
+
+    border: 1px solid red;
+    margin-bottom: 200px;
+}
+
+.wall:nth-child(2){
+    margin-top: 200px;
+}
+
+.wall2{
+    border-radius: 20px;
+    position: absolute;
+
+
+    width: 50%;
+    height: 250px;
+    z-index: 2;
+
+    background-color: rgba(0, 0, 0, 0.666);
+    backdrop-filter: blur(5px);
+
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
