@@ -11,9 +11,6 @@ export default meta;
 type Story = StoryObj<typeof HexagonSlot>;
 
 export const Primary: Story = {
-    args: {
-        color: "#4d9bd2",
-    },
 };
 
 
